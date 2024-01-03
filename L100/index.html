@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <h1>NATIONAL UNION OF PRESBYTERIAN STUDENTS - GHANA</h1>
+    <hr>
+    <h2>(AAMUSTED LOCAL)</h2>
+    
+    <div class="register-form"> 
+        <form action="https://formspree.io/f/xnqeqvwl" method="post">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required><br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required><br>
+
+            <label for="other_name">Other Name:</label>
+            <input type="text" id="other_name" name="other_name"><br>
+
+
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            </select><br>
+
+            <label for="marital_status">Marital Status:</label>
+            <select name="marital_status" id="marital_status" required>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+            <option value="widowed">Widowed</option>
+            </select><br>
+
+            <label for="contact">Contact:</label>
+            <input type="tel" id="contact" name="contact" required><br>
+
+            <label for="emergency_contacts">Emergency Contacts:</label><br>
+            <input type="tel" id="emergency_contact_1" name="emergency_contacts[]" required><br>
+
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required><br> 
+            <label for="Home_Town">Home Town:</label>
+            <input type="text" id="Home_Town" name="Home_Town" required><br>
+            <label for="region">Region:</label>
+            <input type="text" list="regions" id="region" name="region" required>
+            <datalist id="regions">
+                <option value="Greater Accra">
+                <option value="Ashanti">
+                <option value="Central">
+                <option value="Eastern">
+                <option value="Western">
+                <option value="Volta">
+                <option value="Northern">
+                <option value="Upper East">
+                <option value="Upper West">
+                <option value="Brong-Ahafo">
+                <option value="Western North">
+                <option value="Oti">
+                <option value="Ahafo">
+                <option value="Bono East">
+                <option value="North East">
+                <option value="Savanna">
+            </datalist><br>
+
+            <label for="Hall_Of_Affiliation">Hall Of Affiliation:</label>
+            <select name="Halls">
+                <option>Opoku Ware Hall</option>
+                <option>Atwima Hall</option>
+                <option>Autonomy Hall</option>
+            </select><br>
+
+            <label for="program">Program of Studies:</label>
+            <input type="text" list="programs" id="program" name="program" required>
+            <datalist id="programs">
+                <option value="B. Sc. Information Technology Education">
+                <option value="B. A. English Education">
+                <option value="B. A. French Education">
+                <option value="B. A. French with English Education">
+                <option value="B. A. Economics with Social Studies Education">
+                <option value="B. A. Social Studies with Economics Education">
+                <option value="B. A. Secretarial Education">
+                <option value="B. Ed Early Grade Education">
+                <option value="B. Ed Junior High Education">
+                <option value="B. Ed Upper Primary Education">
+                <option value="B. Sc. Catering and Hospitality Education">
+                <option value="B. Sc. Accounting Education">
+                <option value="B. Sc. Chemistry Education">
+                <option value="B. Sc. Fashion Design and Textiles Education">
+                <option value="B. Sc. Mathematics Education">
+                <option value="B. Sc. Wood Technology Education">
+                <option value="B. Sc. Automotive Engineering Technology Education">
+                <option value="B. Sc. Mechanical Engineering Technology Education">
+                <option value="B. Sc. Construction Technology Education">
+                <option value="B. Sc. Electrical and Electronic Engineering Technology Education">
+            </datalist><br>
+            <hr>
+            <div class="wings-container">
+                <h2>Wings of Choice</h2>
+                
+                    <label for="wings">Select your Wings of Choice:</label><br>
+                    <input type="checkbox" id="prayer-wing" name="wings[]" value="Prayer Wing">
+                    <label for="prayer-wing">Prayer Wing</label><br>
+                    
+                    <input type="checkbox" id="coordinating-wing" name="wings[]" value="Coordinating Wing">
+                    <label for="coordinating-wing">Coordinating Wing</label><br>
+                    
+                    <input type="checkbox" id=" Organizing" name="wings[]" value="Organizing">
+                    <label for="Organizing">Organizing</label><br>
+
+                    <input type="checkbox" id="Ushering" name="wings[]" value="Ushering">
+                    <label for="Ushering">Ushering</label><br>
+
+                    <input type="checkbox" id="Evangelism wing" name="wings[]" value="Evangelism wing">
+                    <label for="Evangelism-wing">Evangelism wing</label><br>
+
+                    <input type="checkbox" id="Inspirers" name="wings[]" value="Inspirers">
+                    <label for="Inspirers">Inspirers</label><br>
+
+                    <input type="checkbox" id="Choir" name="wings[]" value="Choir">
+                    <label for="Choir">Choir</label><br>
+
+                    <input type="checkbox" id="Ladies wing" name="wings[]" value="Ladies wing">
+                    <label for="Ladies-wing">Ladies wing</label><br>
+
+                    <input type="checkbox" id="Vessels of inspiration" name="wings[]" value="Vessels of inspiration">
+                    <label for="Vessels-of-inspiration">Vessels of inspiration</label><br>
+                
+            </div>
+            <hr>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
