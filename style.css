@@ -1,0 +1,63 @@
+body {
+  background-image: url('background.jpg');
+  background-repeat: repeat;
+}
+
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(196, 244, 119, 0.7);
+  border-radius: 10px;
+  margin: auto;
+  width: 60%;
+  max-width: 800px;
+  border: dashed ;
+}
+
+
+h1 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px none wheat;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 150px;
+  color: wheat;
+  
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
